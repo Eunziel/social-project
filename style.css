@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.box, .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box div{
+    width: 50%;
+}
+.box1 h2{
+    width: 50%;
+    font-size: 40px;
+}
+.box1 p{
+    width: 70%;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.box2 span p{
+    display: inline-block;
+    margin-left: 10px;
+}
+.box2 span{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 1em 4em 1em 2em;
+}
+.box2 .one{
+    margin-right: 100px;
+}
+.box2 .two{
+    margin-right: 40px;
+}
+.main{
+    margin-top: 30px;
+}
+.main1, .main2{
+    margin-right: 20px;
+    padding: 20px;
+    background-color:  hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+.main2{
+    margin-top: 40px;
+}
+.main3{
+    background-color:  hsl(300, 43%, 22%);
+    padding: 20px;
+    margin-top: 90px;
+    border-radius: 10px;
+}
+.card{
+    display: flex;
+    margin-bottom: 20px;
+}
+.card img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.box1 h2, .box2 p{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.box2 p{
+    font-weight: 500;
+}
+.box1 p{
+    color: hsl(303, 10%, 53%);
+    margin-top: 10px;
+}
+.card p, span{
+    font-size: 15px;
+}
+.card p{
+    color:  hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+.card span{
+    color:  hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.main p{
+    color: hsl(300, 24%, 96%);
+    font-weight: 400;
+    font-size: 13px;
+}
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+@media screen and (max-width:700px){
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .box1 h2{
+        width: 180%;
+        text-align: center;
+        margin-left: -50px;
+    }
+    .box1 p{
+        width: 200%;
+        text-align: center;
+        margin-left: -80px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .box2{
+        align-items: center;
+        margin-bottom: -30px;
+        padding: 5px;
+    }
+    .one, .two, .three{
+        text-align: center;
+        width: 200%;
+    }
+    .one{
+        margin-left: 80px;
+    }
+    .two{
+        margin-left: 20px;
+    }
+    .three{
+        margin-left: -20px;
+    }
+    .main2{
+        margin-top: 10px;
+    }
+    .main3{
+        margin-top: 10px;
+        width: 92%;
+        margin-right: 20px;
+    }
+
+}
